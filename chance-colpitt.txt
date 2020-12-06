@@ -1,0 +1,136 @@
+https://codepen.io/chancetheperson/full/YzGwJvq
+
+
+
+
+
+
+
+1. What is Semantic HTML? 
+using HTML markups to define web pages/apps 
+
+2. What is HTML used for?
+ web pages/apps
+
+3. What is an attribute and where do we put it? 
+words used inside an opening tag that controls an element
+
+4. What is the h1 tag used for? How many times should I use it on a page? 
+h1 is the first header and should only be used once. 
+
+5. Name two tags that have required attributes
+img & input
+
+6. What do we put in the head of our HTML document? 
+<!doctype HTML> or <header>
+
+7. What is an id? 
+a global attribute that is defined and unique. 
+
+8. What elements can I add an id to? 
+
+9. How many times can I use the same id on a page? 
+as many as you want, but recommended only once. 
+
+10. What is a class? 
+attribute used to specify a class for an HTML element. 
+
+11. What elements can I add a class to? 
+    Any
+
+12. How many times can I use the same class on a page? 
+    any
+
+13. How do I get my link to open in a new tab?
+    target="_blank"
+
+14. What is the alt attribute in the image tag used for? 
+    gives alternate info if a user cannot view image
+
+15. How do I reference an id?
+    #id
+16. What is the difference between a section and a div
+    sec is for info within a document, div is for an overall html section or division. 
+
+17. What is CSS used for? 
+    making a page look nice, manipulating aesthetics. 
+
+18. How to we select an element? Example - every h2 on the page
+   h2 {} <-- element name followed by brackets
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one:
+a class is not unique, and an ID is unique. 
+<div class="firstSection"></div>
+<section id= "thisPart"></section>
+   
+20. How do we select classes in CSS?
+    period before name: .class {}
+
+21. How do we select a p element with a single class of “human””?
+    p.human {}
+
+22. What is a parent child selector? When would this be useful? 
+    selects all children of a specified element. useful when you have lots of code that needs to look the same. 
+
+23. How do you select all links within a div with the class of sidebar?
+    a:link{} #sidebar a:link{}
+
+24. What is a pseudo selector?
+    something that changes a class to a special state, i.e. :hover
+
+25. What do we use the change the spacing between lines?
+    line-height:
+
+26. What do we use to change the spacing between letters?
+    letter-spacing:
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercast/lowercase/capitalize:
+    
+28. How do I add a 1px border around my div that is dotted and black?
+     div {border:1px dotted black;}
+
+29. How do I select everything on the page? 
+    *
+
+30. How do I write a comment in CSS?
+    /* comment goes here */
+
+31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm - because it doesn't ask you if you're sure it just deletes it. 
+
+34. Why should I use version control? 
+    because it allows multiple people to work w/o it conflicting w/ each other.
+
+35. How often should I commit to github?
+    Whenever a step is finished. 
+
+36. What is the command we would use to push our repo up to github? 
+    git push -u 
+
+37. Walk me through Lambda's git flow. 
+Click link
+Click fork button
+select account ( if it asks)
+code button
+clipboard button to copy url
+go to terminal
+folder where your repos go
+$pwd
+$ls
+$cd (foldername)
+once in folder, create new folder in that folder with repo
+$git clone *paste*
+$ls <-- to make sure youre in the right place
+$cd name of folder
+$git branch
+$git checkout -b 'chance-colpitt'
+$code .
+Once you have pushed - go and click compare and pull
+then change compare to YOUR NAME and BASE to yours
